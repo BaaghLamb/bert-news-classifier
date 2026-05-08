@@ -1,0 +1,6 @@
+cache/
+bert_news_classifier/checkpoint-*/model.safetensors
+bert_news_classifier/checkpoint-*/optimizer.pt
+bert_news_classifier/checkpoint-*/scheduler.pt
+*.bin
+*.pth

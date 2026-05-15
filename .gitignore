@@ -1,6 +1,21 @@
+# 训练 checkpoint 文件
+checkpoint-*/
+*/checkpoint-*/
+bert_news_classifier/checkpoint-*/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+*.log
+*.bak
+.DS_Store
+
+# 缓存文件夹
 cache/
-bert_news_classifier/checkpoint-*/model.safetensors
-bert_news_classifier/checkpoint-*/optimizer.pt
-bert_news_classifier/checkpoint-*/scheduler.pt
-*.bin
-*.pth
+*.cache
